@@ -32,7 +32,7 @@
     <ul class="topnav">
         <li><a href="https://vahinui.github.io/termproject/">Home</a></li>
         <li><a href="https://vahinui.github.io/adventuretours/">Tours</a></li>
-        <li><a href="">Events</a></li>
+        <li><a href="https://vahinui.github.io/event/">Events</a></li>
         <li><a href="https://vahinui.github.io/sales/">Sales</a></li>
         <li><a href="https://vahinui.github.io/servicepage/">Services</a></li>
         <li><a href="">Contact</a></li>
@@ -43,12 +43,62 @@
     <!-----IMAGE----->
     <div class="img1">
         <img src="images/img_nature_wide.jpg" alt="Mountain in summer season" style="width: 100%">
-        <div class="h1centered">ANUUAL EVENT <br>CYCLE THE CONTINENTAL DIVIDE</div>
-        <div class="pcentered">SEASON RUNS MAY 26 - SEPT 23, 2019 </div>
+        <div class="h1centered">5TH ANNUAL EVENT <br>CYCLE THE CONTINENTAL DIVIDE</div>
+        <div class="pcentered">JULY 21st, 2019 </div>
     </div>
         
+    <p>The 5th annual Cycle The Continental Divide Trail Race presented by The Mountain Spoke is set to go off on July 21st, 2019. Comprised of some of the most exciting sections of remote trail in the Gallatin National Forest, the Cycle The Continental Divide Trail Race is a challenging course that takes riders over ridgelines, past alpine lakes and down flowing drainages while exploring 40+ miles of remote connected trails. </p>
         
-    </content>  
+     <form method="get" action="https://vahinui.github.io/l08thanks/">
+            <h2>Applicant Information</h2>
+            <fieldset>
+                <label class="one">First Name* <input type="text" name="fname" required></label>
+                <label class="one">Last Name* <input type="text" name="lname" pattern="[A-Za-z]{5,}" title="5 charecter or more" required></label>
+                <label class="one">Phone* <input type="tel" name="phone" required></label>
+                <label class="one">Email <input type="email" name="email" placeholder="username@gmail.com"></label>
+                <label class="one">Zip Code* <input type="zipcode" name="zip code" required></label>
+            </fieldset>
+            
+            <h2>Storm Information</h2>
+            <fieldset>
+                <div>Storm Type :</div>
+                <label class="two"><input type="checkbox" name="flood" value="yes"> Flash Flood</label>
+                <label class="two"><input type="checkbox" name="hurricane" value="yes"> Hail Hurricane</label>
+                <label class="two"><input type="checkbox" name="thunder" value="yes"> Thunderstorm</label>
+                <label class="two"><input type="checkbox" name="tornado" value="yes">  Tornado</label>
+                
+                <div>Storm Severity</div>
+                <label class="scd"><input type="range" min="1" max="10" value="5" class="slider"></label>
+                
+                <div>In-Danger level :</div><label class="two"><input type="radio" name="yes"> Yes</label>
+                <label class="two"><input type="radio" name="no"> No</label>
+                
+                <div>Give Us More Information :</div><textarea rows="5" cols="50" name="comment" form="usrform"></textarea>
+            
+            </fieldset>
+            
+            <h2> Date and Location</h2>
+            <fieldset>
+           <label class="one">Storm Date <input type="date" name="completeDate"></label>
+                <label class="one">Storm Region
+                    <select name="subject">
+                    <option value="">Select Region ...&#9662;</option>
+                    <option value="franklin">Franklin</option>
+                    <option value="greenville">Greenville</option>
+                    <option value="springfield">Srpingfield</option>
+                    </select>
+                </label>
+            </fieldset>
+            
+            
+            <input type="submit" value="Send my Report" class="submitBtn">                                 
+    
+        </form>
+        
+        
+    </content> 
+        
+    
         
         
     <!-----FOOTER----->
