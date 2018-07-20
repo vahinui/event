@@ -83,6 +83,11 @@ div.content {
     margin: 10px 70px 10px 70px;
 }
 
+/*-----HEADING-----*/
+h2 {
+    margin-left: 30px
+}
+
 
 /*--------FORM---------*/
 
@@ -90,12 +95,15 @@ form fieldset {
     margin: 2rem 10rem 0;
     border: 1px solid grey;
     padding: .5rem 2%;
+    width: 60%;
+    border-radius: 9px;
+    
 }
 
 form label.one, form div {
     display: block;
     padding-top:  1rem;
-    color: darkred;
+    color: red;
     font-size: .9rem;
 }
 
@@ -110,10 +118,6 @@ form label.one input, form label.one select {
     background: rgba(0,0,0,0.05);
 }
 
-form label.two {
-    display: block;
-    display: .75rem 0;
-}
 
 form input.submitBtn {
     border: none;
