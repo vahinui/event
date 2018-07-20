@@ -1,0 +1,25 @@
+@media only screen and (max-width: 599px){
+    
+/*-----NAV-----*/   
+ul.topnav li {float: none;}
+/*-----IMAGES-----*/    
+.h1centered {font-size: 13px}
+
+.pcentered {font-size: 9px}
+    
+.bicyclecenter {
+    top: 5%;
+    font-size: 20px
+}
+
+/*--------FORM---------*/
+
+form fieldset {
+    margin: 2rem 0rem 0;
+    border: 1px solid grey;
+    padding: .5rem 2%;
+    
+}
+
+    
+}

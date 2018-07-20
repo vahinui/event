@@ -1,0 +1,20 @@
+@media only screen and (min-width:600px){
+ 
+ /*-----IMAGE-----*/   
+.h1centered {
+    font-size: 25px;
+}
+    
+.pcentered {
+    font-size: 15px;    
+}
+    
+/*--------FORM---------*/
+
+form fieldset {
+    margin: 2rem 0rem 0;
+    border: 1px solid grey;
+    padding: .5rem 2%;
+    
+}
+}
