@@ -21,5 +21,33 @@ form fieldset {
     
 }
 
+/*-----COLUMN-----*/
+.column {
+    float: left;
+    padding: 10px;
+    height: 400px;
+    
+}
+
+.left, .middle {
+    width: 45%;
+}
+
+.right {
+    width: 70%;
+    height: 130px;
+}
+    
+.row {
+    margin: 0px 0px 0px 0px;
+}
+    
+/*-----RECTANGLE-----*/
+.rectangle {
+    margin: 0px 150px 0px ;
+        
+}
+
+
     
 }

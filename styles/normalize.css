@@ -39,7 +39,7 @@ div.content {
 
 
 /*-----IMAGE : EVENT-----*/
-.img1, .img3 {
+.img1 {
     position: relative;
     text-align: center;
     color: white;
@@ -62,15 +62,8 @@ div.content {
     font-size: 20px;
 }
 
-.img2 { 
-    position: relative;
-    font-family: 'Graduate', cursive;
-    text-align: center;
-    color: black;
-}
 
-
-/*-----RECTANGLE-----*/
+/*-----INFORMATIION-----*/
 
 .information {
     background-color: grey;
@@ -84,9 +77,42 @@ div.content {
 }
 
 /*-----HEADING-----*/
-h2 {
-    margin-left: 30px
+h1 {
+    margin-left: 30px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
+
+
+/*-----IMAGE------*/
+.race {
+    display: block;
+    padding: 70px 20px 70px 0px;
+    
+}
+
+/*-----CONTENT-----*/
+
+.rectangle {
+    background-color: grey;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 10px 20px 15px 20px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    height: 150px;
+    width: 200px;
+    
+    margin: 70px 0px 70px ;
+}
+
+.spacing {
+    line-height: 70%;
+}
+
+.space {
+    line-height: 10px;
+}
+
 
 /*------MIDDLE COLUMN-----*/
 
@@ -114,11 +140,11 @@ h2 {
     
 }
 
-.column left, .column right {
+.left, .right {
     width: 22%;
 }
 
-.column middle {
+.middle {
     width: 45%;
 }
 
