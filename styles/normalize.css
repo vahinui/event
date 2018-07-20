@@ -88,6 +88,51 @@ h2 {
     margin-left: 30px
 }
 
+/*------MIDDLE COLUMN-----*/
+
+.h2middle {
+    margin: 70px 0px 0px 0px;
+    font-family: 'Graduate', cursive;
+}
+.button {
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    padding: 5px 15px;
+    border: none;
+}
+
+
+
+
+/*-----ROW-----*/
+.column {
+    float: left;
+    padding: 10px;
+    height: 320px;
+    
+}
+
+.column left, .column right {
+    width: 22%;
+}
+
+.column middle {
+    width: 45%;
+}
+
+.row {
+    margin: 0px 0px 0px 70px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
 
 /*--------FORM---------*/
 
