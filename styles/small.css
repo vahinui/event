@@ -35,7 +35,7 @@ form fieldset {
 
 .right {
     width: 70%;
-    height: 130px;
+    height: 180px;
 }
     
 .row {
@@ -44,7 +44,7 @@ form fieldset {
     
 /*-----RECTANGLE-----*/
 .rectangle {
-    margin: 0px 150px 0px ;
+    margin: 0px 100px 0px ;
         
 }
 
