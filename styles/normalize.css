@@ -201,6 +201,17 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
+textarea {
+     display: block;
+    font-size: 1rem;
+    border-radius: 9px;
+    border: solid 2px grey;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background: rgba(0,0,0,0.05);
+    
+}
 
 /*-----FOOTER-----*/
 .footer {
